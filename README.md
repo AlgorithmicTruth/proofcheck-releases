@@ -60,9 +60,6 @@ proofcheck [-j N] [-t T] [-e CMD] <model.agmv | model.out>
 | `-t T` | Per-step ATP timeout in seconds | 3 |
 | `-T T` | Total wall-clock timeout in seconds | (off) |
 | `-e CMD` | eprover binary path | auto-discover |
-| `-strict` | Enable all structural defenses (default) | on |
-| `-lenient` | Disable strict structural defenses, including strict TPTP syntax validation of the problem file | off |
-| `-vampire` | Relax strict structural checks for Vampire `.vproof` input | off |
 | `-a` | High assurance: cross-check failed model steps with ATP | off |
 | `-aa` | Full assurance: cross-check all model steps with ATP | off |
 | `-self-certify` | Run the embedded self-test suite | - |
